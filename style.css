@@ -1,0 +1,38 @@
+<style>
+  @font-face{
+    font-family: "Jua";
+    src: url("./Jua-Regular.ttf");
+  }
+  h1{
+    border-bottom:5px solid #50bcdf ;
+    text-align: center;
+    font-family: "Jua";
+    padding : 20px;
+    font-size:50px;
+    margin:0;
+  }
+  ol{
+    font-family: "Jua";
+    border-right:5px solid #50bcdf;
+    width:60px;
+    margin:0;
+    padding:20px;
+  }
+  ul{
+    font-family: "Jua";
+    border-right:5px solid #50bcdf;
+    width:60px;
+    margin:0;
+    padding:20px;
+    text-align: center;
+  }
+  #grid{
+    text-align: center;
+    font-family: "Jua";
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+
+  a { text-decoration:none ; color:#000000}
+
+</style>
